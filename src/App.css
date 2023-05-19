@@ -1,0 +1,19 @@
+.container{
+  display: flex;
+}
+.sidebar {
+  height: 100vh;
+  background-color: red;
+  width:20%;
+  min-width: 200;
+}
+.main{
+  flex:1;
+}
+.preview{
+  height:80vh;
+  overflow: scroll;
+}
+.thumbnail{
+  height:20vh
+}
